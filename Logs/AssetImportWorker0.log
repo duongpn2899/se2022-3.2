@@ -1,0 +1,432 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17763) 64bit EnterpriseS' Language: 'en' Physical Memory: 12152 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Công nghệ phần mềm/3D Model Viewer to AR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65463
+Successfully changed project path to: E:/Công nghệ phần mềm/3D Model Viewer to AR
+E:/Công nghệ phần mềm/3D Model Viewer to AR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 105.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Công nghệ phần mềm/3D Model Viewer to AR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     6076 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006226 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 112.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007184 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Công nghệ phần mềm\3D Model Viewer to AR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Công nghệ phần mềm\3D Model Viewer to AR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 105.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (160ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3830 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (113.5 KB). Loaded Objects now: 4284.
+Memory consumption went from 145.3 MB to 145.2 MB.
+Total: 3.734600 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.315500 ms MarkObjects: 2.874800 ms  DeleteObjects: 0.132400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 972.955626 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/Scripts/glTFast.Editor.asmdef
+  artifactKey: Guid(76676817d91ba4f44b4aa7df71867256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/Scripts/glTFast.Editor.asmdef using Guid(76676817d91ba4f44b4aa7df71867256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3247ce55bd6dddaffdc705dda6097e5') in 0.037655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.024573 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/Scripts/OnScriptsReloadHandler.cs
+  artifactKey: Guid(dd9d2e50cd6f34502ad61d8555c226bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/Scripts/OnScriptsReloadHandler.cs using Guid(dd9d2e50cd6f34502ad61d8555c226bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d8ba5d6681399610ee1d7ba4834d7c') in 0.008392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.581406 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/UI/Dependency-style.uss
+  artifactKey: Guid(8b07415b3b6e441cfa55e9187248229c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/UI/Dependency-style.uss using Guid(8b07415b3b6e441cfa55e9187248229c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4f85944847471182e7cbbdf9323f8d') in 0.026675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/UI/GltfImporter-style.uss
+  artifactKey: Guid(3f6f1f186c9e446d880d267adc629f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/UI/GltfImporter-style.uss using Guid(3f6f1f186c9e446d880d267adc629f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd07d4d425706858be1810ccf733932f') in 0.009827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/UI/gltf-logo.png
+  artifactKey: Guid(dfde62efb4ba642ea968adab4e674d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/UI/gltf-logo.png using Guid(dfde62efb4ba642ea968adab4e674d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddda4b94e6b3c6e97f406615ece555d1') in 0.108935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/UI/GltfImporter.uxml
+  artifactKey: Guid(d72633e56500240858af54bf878c907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/UI/GltfImporter.uxml using Guid(d72633e56500240858af54bf878c907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b24cf58b2f3a4fef0c13f02999d3d64') in 0.016886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.atteneder.gltfast/Editor/UI/ReportItem-style.uss
+  artifactKey: Guid(f09b0781de4034af894fbb72266cf498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Editor/UI/ReportItem-style.uss using Guid(f09b0781de4034af894fbb72266cf498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8293c31b679fd7d8e8e98f12a11633f5') in 0.010417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.170204 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts
+  artifactKey: Guid(40f50162465af48b6b44b4a1ba5b6eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts using Guid(40f50162465af48b6b44b4a1ba5b6eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1764805ddf7ba365fc613eaec8544982') in 0.009573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856558 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/glTFast.asmdef
+  artifactKey: Guid(a42927d1d4a3b4cda9b076a7adecb9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/glTFast.asmdef using Guid(a42927d1d4a3b4cda9b076a7adecb9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a542b4c1c425f23d28782f8a3442a6') in 0.005875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.613392 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema
+  artifactKey: Guid(ffda2751a985d437aa9535cccba413a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema using Guid(ffda2751a985d437aa9535cccba413a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27cf443401b0f02f0d6de90a496eb15') in 0.006084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065648 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/glTFast.Schema.asmref
+  artifactKey: Guid(725183ec9f23d44038632c926fd92512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/glTFast.Schema.asmref using Guid(725183ec9f23d44038632c926fd92512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd1805da17bdcc6e4e42d2f702a3c29') in 0.006665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.275858 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/GltfAnimation.cs
+  artifactKey: Guid(512cfa0fbdd41466b9f5af5c69fbdbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/GltfAnimation.cs using Guid(512cfa0fbdd41466b9f5af5c69fbdbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da0c36105f5ee9b088a0bba559490b3') in 0.007354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.896992 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MaterialUnlit.cs
+  artifactKey: Guid(d3978e6510d4b4087b51e631ce511e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MaterialUnlit.cs using Guid(d3978e6510d4b4087b51e631ce511e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a85eb6c80d6d1695499b290fd3e8d6') in 0.009651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.376249 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Material/glTFast.Material.asmref
+  artifactKey: Guid(f695d81b6b47d4969b6343e0b1c11df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Material/glTFast.Material.asmref using Guid(f695d81b6b47d4969b6343e0b1c11df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a92c2a60b3aae37f72253af4477607') in 0.005585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.079379 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Mesh.cs
+  artifactKey: Guid(8a677036397de4b0792544bd4717511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Mesh.cs using Guid(8a677036397de4b0792544bd4717511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a911e1c473d969b7d7c850ccbb4544d6') in 0.007720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.714301 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MeshGpuInstancing.cs
+  artifactKey: Guid(0717469a78ddd47b88fc4d71b9f07e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MeshGpuInstancing.cs using Guid(0717469a78ddd47b88fc4d71b9f07e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb09591d31cc0f4ddb7763c5e052f79') in 0.009959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.471712 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/NamedObject.cs
+  artifactKey: Guid(2915082f14e58430eb7133121f11bab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/NamedObject.cs using Guid(2915082f14e58430eb7133121f11bab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fc30c8c005e245dfe908b614e60694') in 0.007518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.389914 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Node.cs
+  artifactKey: Guid(624c3569ad7e246b4949b499637dc04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Node.cs using Guid(624c3569ad7e246b4949b499637dc04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3109031afc70d7d5061fc0c51777b1') in 0.010042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435939 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/NodeLightsPunctual.cs
+  artifactKey: Guid(9a6e7ca541a274329bc8d44275af3a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/NodeLightsPunctual.cs using Guid(9a6e7ca541a274329bc8d44275af3a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaabe34ec73564a999541365bda4776') in 0.010270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392358 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/NormalTextureInfo.cs
+  artifactKey: Guid(72f35fa0e2c214807ab6c6946de57b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/NormalTextureInfo.cs using Guid(72f35fa0e2c214807ab6c6946de57b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f6d03d337269755ef10af04f013f02') in 0.008249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370175 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/OcclusionTextureInfo.cs
+  artifactKey: Guid(9f4155f4f154d46368565048b3b9a02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/OcclusionTextureInfo.cs using Guid(9f4155f4f154d46368565048b3b9a02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253c93aa4e86a88ba8491b92a968d6db') in 0.010967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.344441 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/PbrSpecularGlossiness.cs
+  artifactKey: Guid(b4c3dec14586f4f558448c4364576258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/PbrSpecularGlossiness.cs using Guid(b4c3dec14586f4f558448c4364576258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe28693921463276ce8425daf93a411') in 0.008622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381374 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Root.cs
+  artifactKey: Guid(28050f3203e034145b8c2139e518c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Root.cs using Guid(28050f3203e034145b8c2139e518c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff726138eb99f0b0f29117fe112f5f40') in 0.005916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.719284 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Material.cs
+  artifactKey: Guid(6fc5461f38ba347c9af28d46af9eb719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Material.cs using Guid(6fc5461f38ba347c9af28d46af9eb719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c39fddfd320464460e9daef98d5ee1') in 0.008197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.637941 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/JsonWriter.cs
+  artifactKey: Guid(baf6df9cf1a2e4f6da292612bb67b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/JsonWriter.cs using Guid(baf6df9cf1a2e4f6da292612bb67b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4576e447a40b46cf5cd67c6dd30698') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.411656 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Image.cs
+  artifactKey: Guid(83fdd57ebfd5545ce857ee2e3ee48b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Image.cs using Guid(83fdd57ebfd5545ce857ee2e3ee48b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aa16f27f18ef46dc8e50e30fb5c1ac') in 0.009613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.873062 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/GltfCamera.cs
+  artifactKey: Guid(f1c01d072916f45b491af5f6439c6d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/GltfCamera.cs using Guid(f1c01d072916f45b491af5f6439c6d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c1e0db087fde64822ea9d75b4cf91e') in 0.005779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.615916 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/TextureTransform.cs
+  artifactKey: Guid(12cf83ecf915b47e1b8e3e779a054f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/TextureTransform.cs using Guid(12cf83ecf915b47e1b8e3e779a054f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29888672b6c0428e0c185a2a256c7dbe') in 0.007840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338220 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/TextureInfoExtension.cs
+  artifactKey: Guid(f8f0c6330404c41d995fb935d2646524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/TextureInfoExtension.cs using Guid(f8f0c6330404c41d995fb935d2646524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de4f3997be38a672484f10c2d33f8ce') in 0.009214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.361090 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/TextureExtension.cs
+  artifactKey: Guid(d346bcfb85b064278ac07f92c1471db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/TextureExtension.cs using Guid(d346bcfb85b064278ac07f92c1471db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40315a9c9d51768f6709c91a6857290') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613699 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Texture.cs
+  artifactKey: Guid(d1b02af694ac34162993448d1b88d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Texture.cs using Guid(d1b02af694ac34162993448d1b88d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299f0ae5295d18271a962886c8765063') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.757541 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Scene.cs
+  artifactKey: Guid(b0bdde4ff07164139bff05c561321ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Scene.cs using Guid(b0bdde4ff07164139bff05c561321ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403b59a2aa8c2f53508f3aa789079e4') in 0.017694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.938641 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Sampler.cs
+  artifactKey: Guid(e9f648f0401f148f68174d6e4cc536c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Sampler.cs using Guid(e9f648f0401f148f68174d6e4cc536c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45498bd9ef604a14d19f77ce2d67ef23') in 0.007940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.908534 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MaterialTransmission.cs
+  artifactKey: Guid(de3f0ad1a340b4da5a675c20b2eb036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MaterialTransmission.cs using Guid(de3f0ad1a340b4da5a675c20b2eb036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12aa6b57749f9ab9c0e873d9c188f1a7') in 0.008144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.619598 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MaterialExtension.cs
+  artifactKey: Guid(f21fa7c34e6a84a56bd105b618088503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/MaterialExtension.cs using Guid(f21fa7c34e6a84a56bd105b618088503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e823310901e43035b7fe66ba579de3') in 0.008966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850719 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Constants.cs
+  artifactKey: Guid(9bc735a73730843b7a877cadf120268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/Constants.cs using Guid(9bc735a73730843b7a877cadf120268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c32f1cdca5aa7e31613ee6eda4be934') in 0.008554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.811750 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema
+  artifactKey: Guid(6e048fb1006e548b68d3d5b84d2e4669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema using Guid(6e048fb1006e548b68d3d5b84d2e4669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf60dd1f7b806295c2e4ca697008602') in 0.007189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060331 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/glTFast.FakeSchema.asmref
+  artifactKey: Guid(d7dc650b4e7b345c69a42cb7f48d746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/glTFast.FakeSchema.asmref using Guid(d7dc650b4e7b345c69a42cb7f48d746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee69d0e9c4952d7c051890937f2cda5') in 0.005469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.737242 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/MaterialExtension.cs
+  artifactKey: Guid(3fbb61750909c47b8985966c487e74ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/MaterialExtension.cs using Guid(3fbb61750909c47b8985966c487e74ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86af5aadd412f41b606d0a9fe9006b6') in 0.003259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.793508 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/Mesh.cs
+  artifactKey: Guid(7205586242249423e99cafc83ac5e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/Mesh.cs using Guid(7205586242249423e99cafc83ac5e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337a1ed6603b2678c1409df4e7cb7fa2') in 0.007329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.551460 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/MeshPrimitive.cs
+  artifactKey: Guid(00472b2144fe64d769c3626c4cb7a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/MeshPrimitive.cs using Guid(00472b2144fe64d769c3626c4cb7a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620288eb8f558b0a69cd68e0f3dc16a5') in 0.010732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.418181 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/NamedObject.cs
+  artifactKey: Guid(6713b2eb802bd4e52972bc2edc82c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/NamedObject.cs using Guid(6713b2eb802bd4e52972bc2edc82c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571019ad18791f25fdf49aa1d8e05540') in 0.002656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287476 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/Root.cs
+  artifactKey: Guid(0ff53205b504b47bbb7d5fcad1c6ce0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/Root.cs using Guid(0ff53205b504b47bbb7d5fcad1c6ce0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781e32c28da39f72e30d260f1c905c55') in 0.003936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688776 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/AccessorSparse.cs
+  artifactKey: Guid(8c12437b7df46422284639b911c6f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/AccessorSparse.cs using Guid(8c12437b7df46422284639b911c6f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7276d66d825060dcd85d70013b7a309') in 0.007827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.264864 seconds.
+  path: Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/Accessor.cs
+  artifactKey: Guid(5c9e5462940e44ebf8ff81a6b4113a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.atteneder.gltfast/Runtime/Scripts/Schema/FakeSchema/Accessor.cs using Guid(5c9e5462940e44ebf8ff81a6b4113a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f556fc38f9ef85bceee169acd2472007') in 0.009088 seconds 
