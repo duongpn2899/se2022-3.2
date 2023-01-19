@@ -5,7 +5,7 @@ using UnityEngine;
 public class Rotation3D : MonoBehaviour
 {
     // Start is called before the first frame update
-   private Touch touch;
+    private Touch touch;
     private Vector2 touchPosition;
     private Quaternion rotationY;
 
