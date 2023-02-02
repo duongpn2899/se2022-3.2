@@ -9328,6 +9328,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader__ctor_m2248766DF38AF07562AD3
 // System.Void Manager::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Manager_Start_m6020E6CFF13BDC27498882840D6AE9674E482BB8 (Manager_t284418B3970F0169BE687FF1F4E8EB6EA614FE40* __this, const RuntimeMethod* method) 
 {
+	{
+		// }
+		return;
+	}
+}
+// System.Void Manager::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Manager_Update_m1B1B140132649617A2D7FF870578110CF3A49AF1 (Manager_t284418B3970F0169BE687FF1F4E8EB6EA614FE40* __this, const RuntimeMethod* method) 
+{
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
@@ -9339,14 +9347,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Manager_Start_m6020E6CFF13BDC27498882840
 		// SceneManager.LoadScene("3DScenes");
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralBCA4191F357155B4BC54862B27A599AA2FF6AC9A, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Manager::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Manager_Update_m1B1B140132649617A2D7FF870578110CF3A49AF1 (Manager_t284418B3970F0169BE687FF1F4E8EB6EA614FE40* __this, const RuntimeMethod* method) 
-{
-	{
 		// }
 		return;
 	}
