@@ -69,7 +69,7 @@ using UnityEngine.XR.ARSubsystems;
                 // Raycast hits are sorted by distance, so the first one
                 // will be the closest hit.
                 var hitPose = s_Hits[0].pose;
-            
+
                 if (spawnedObject == null)
                 {
                     spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
@@ -77,7 +77,6 @@ using UnityEngine.XR.ARSubsystems;
                 }
                 else
                 {
-                    //repositioning of the object 
                     spawnedObject.transform.position = hitPose.position;
                 }
                     placementUpdate.Invoke();
