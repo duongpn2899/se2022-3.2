@@ -11,9 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARScene.unity
     guid: d9849a1282a52624d86c27e447a9cb10
-  - enabled: 0
-    path: Assets/Scenes/Tesst.unity
-    guid: bdd28f20006fb0341bed1a247b999f87
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
