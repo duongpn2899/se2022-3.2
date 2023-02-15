@@ -14,9 +14,13 @@ Thiết bị hỗ trợ Google Play Services for AR https://developers.google.co
 
 # Input
 
-file glb,
+file glb, gltf
 
 # Result
+
+Load được file .glb và .gltf và hiển thị được nó dạng 3D.
+
+Hiển thị model 3D trên AR
 
 # Package usage
 
