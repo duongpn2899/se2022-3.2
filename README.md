@@ -16,21 +16,7 @@ Thiết bị hỗ trợ Google Play Services for AR https://developers.google.co
 
 file glb, gltf
 
-# Result
 
-Load được file .glb và .gltf và hiển thị được nó dạng 3D.
-
-Hiển thị model 3D trên AR
-
-Ở cả 3D và AR model có thể zoom và xoay.
-
-# Package usage
-
-AR Foundation
-
-Gltfast
-
-Lean Touch
 
 # Demo/Screenshot
 
