@@ -22,6 +22,8 @@ Load được file .glb và .gltf và hiển thị được nó dạng 3D.
 
 Hiển thị model 3D trên AR
 
+Ở cả 3D và AR model có thể zoom và xoay.
+
 # Package usage
 
 AR Foundation
