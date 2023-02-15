@@ -14,10 +14,26 @@ Thiết bị hỗ trợ Google Play Services for AR [https://developers.google.c
 
 # Input
 
+file glb,
+
 # Result
 
 # Package usage
 
+AR Foundation
+
+Gltfast
+
+Learn Touch
+
 # Demo/Screenshot
 
 # Reference
+
+https://github.com/Unity-Technologies/arfoundation-samples
+
+https://github.com/atteneder/glTFast
+
+https://github.com/atteneder/glTFastDemo
+
+https://api.unity.com/v1/oauth2/authorize?client_id=asset_store_v2&locale=en_US&redirect_uri=https%3A%2F%2Fassetstore.unity.com%2Fauth%2Fcallback%3Fredirect_to%3D%252Fpackages%252Ftools%252Finput-management%252Flean-touch-30111&response_type=code&state=87ade76c-1753-4b8f-8d2e-1c9ef8678d6b
