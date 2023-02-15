@@ -52,6 +52,7 @@ using UnityEngine.XR.ARSubsystems;
             if (Input.touchCount > 0)
             {
                 touchPosition = Input.GetTouch(0).position;
+                DiableVisual();
                 return true;
             }
 
