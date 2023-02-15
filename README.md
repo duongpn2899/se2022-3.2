@@ -37,6 +37,10 @@ Lean Touch
 
 https://user-images.githubusercontent.com/68319826/219054463-d5e0a1b8-6332-47b7-aa9c-ee13c435bf74.mp4
 
+Model in AR
+
+https://user-images.githubusercontent.com/68319826/219055256-01b06a98-dc55-41fd-a998-babafe6f38a8.mp4
+
 # Reference
 
 AR Foundation
